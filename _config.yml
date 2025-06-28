@@ -1,0 +1,29 @@
+title: "تحريرها – HerLiberation"
+description: "مدونة نسوية عراقية تطمح لحرية المرأة وتحقيق العدالة."
+url: "https://herliberationiq.github.io"
+baseurl: ""
+repository: "HerLiberationIQ/-Her-Liberation_-"
+remote_theme: mmistakes/minimal-mistakes@4.27.1
+
+locale: ar
+direction: rtl
+skin: "plum"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-include-cache
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      share: true
+
+include: ["_includes"]
+head_custom: "head-custom.html"
